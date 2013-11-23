@@ -1,0 +1,47 @@
+
+<!--HTML file for 37signals website clone-->
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>37signals</title>
+			<link rel="stylesheet" type="text/css" href="main.css" media="screen">
+			<script  type="text/javascript"  src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+			<script type="text/javascript" src="application.js"></script>
+		</head>
+		<body>
+				<ul class="nav">
+				    <div class="greeting"><li>Happy Thursday.</li></div>
+					<li><a href="http://37signals.com/svn">Company Blog</a></li>
+					<li><a href="http://37signals.com/about">Our story</a></li>
+					<li><a href="http://twitter.com/37signals">Follow us on Twitter</a></li>
+					<li><a href="http://status.37signals.com/">System status</a></li>
+					<li><a class=signin href="https://launchpad.37signals.com/">Sign in</a></li>
+				</ul>
+				<div class="containerlarge">
+					<img class="image"; src="./images/logo.png">
+					<div class="headline">
+					    <h1>Making collaboration productive and enjoyable for people every day.</h1>
+					</div>
+					<h2 class="byline">Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h2>
+					<div class="boxone">
+					    <img src= "./images/logo-bc.png">
+						<h3>Basecamp</h3>
+					    <p class="blurbone">Manage projects</p>
+					    <p class="blurbtwo">Used by millions for project management.</p>
+					</div>
+					<div class="boxone" id="boxtwo">
+					    <img src="./images/logo-hr.png">
+					    <h3>Highrise</h3>
+					    <p class="blurbone">Manage Contacts</p>
+					    <p class="blurbtwo">Know the people you do business with.</p>
+					</div>
+					<div class="boxone">
+					    <img src="./images/logo-cf.png">
+					    <h3>Basecamp</h3>
+					    <p class="blurbone">Work in Real-Time</p>
+					    <p class="blurbtwo">Group chat rooms for your business.</p>
+					</div>
+				</div>	
+			<img class="bottom" src="./images/stars.png">
+		</body>
+	</html>

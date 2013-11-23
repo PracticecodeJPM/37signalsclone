@@ -1,0 +1,152 @@
+/**main.css for 37signals website clone**/
+body {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	text-align:center;
+	}
+.greeting {
+    display:inline;
+	color: #999;
+	float:left;
+	}
+li {
+	display:inline;
+	margin:0 10px;
+	}
+a:link{
+	text-decoration:none;
+	color:#369;
+	}
+a:hover{
+	color:#6699cc;
+	}
+a.signin {
+	color:#18afe0;
+	}
+a.signin:hover {
+	color:#336699;
+	}
+.nav {
+    font-size:12px;
+    text-align:right;
+}
+.image {
+    margin-top:35px;
+
+}
+.containerlarge {
+    overflow:hidden;
+    margin:0 auto;
+    height:auto;
+    width:850px;
+    display:block;
+}
+h1, h2, h4, h5{
+    font-family:serif
+}
+.headline {
+    width:825px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:25px;
+    color:#232323;
+    letter-spacing:-2px;
+    margin-top:-10px;
+}
+.byline {
+    display:block;
+    width:825px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:20px;
+    font-weight:500;
+}
+.container {
+    margin-top:40px;
+    width: 100%;
+    text-align:center;
+}
+.box
+    {
+        display:inline-block;
+        border-radius: 5px;
+        background-image: -webkit-linear-gradient(top right, #FFFFFF 0%, #EFEFEF 100%);
+        border: 1px solid #e8e8e8;
+        width:150px;
+        height:215px;
+        padding:20px 10px 10px;
+    }
+#boxhr {
+    margin-left:30px;
+    margin-right:30px;
+}
+
+h3 {
+    text-decoration:underline;
+    font-size:21px;
+    color:#369;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-weight: bold;
+    margin-bottom:0px;
+    margin-top:5px;
+}
+.blurbone {
+    font-size:14px;
+    color:#cc0000;
+    font-weight:bold;
+}
+.blurbtwo {
+    font-size:13px;
+    color: #222;
+    
+}
+.bottom {
+    margin-top:40px;
+    clear:both;
+}
+.hidden {
+	display:none;
+}
+h4 {
+    width:825px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:44px;
+    color:#232323;
+    letter-spacing:-2px;
+    margin-top:10px;
+	margin-bottom:-10px;
+}
+h5 {
+    display:block;
+    width:825px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:19px;
+    font-weight:500;
+	margin-bottom:33px;
+}
+#basecamp-arrow {
+position: absolute;
+margin-left: -150px;
+margin-top: -31px;
+z-index: 1;
+}
+
+#highrise-arrow {
+position: absolute;
+margin-left: 60px;
+margin-top: -31px;
+z-index: 1;
+}
+
+#campfire-arrow {
+position: absolute;
+margin-left: 100px;
+margin-top: -31px;
+z-index: 1;
+}
+
+.link {
+text-decoration: underline;
+color: #336699;
+	
